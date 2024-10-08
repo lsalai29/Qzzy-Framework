@@ -27,6 +27,7 @@
 		D43DF4AF2CB557FA001CC316 /* Core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
 		D43DF4B42CB557FB001CC316 /* CoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D43DF4B92CB557FB001CC316 /* CoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreTests.swift; sourceTree = "<group>"; };
+		D43DF4C32CB55B21001CC316 /* Core.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = Core.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +78,7 @@
 		D43DF4B82CB557FB001CC316 /* CoreTests */ = {
 			isa = PBXGroup;
 			children = (
+				D43DF4C32CB55B21001CC316 /* Core.xctestplan */,
 				D43DF4B92CB557FB001CC316 /* CoreTests.swift */,
 			);
 			path = CoreTests;

@@ -1,0 +1,33 @@
+{
+  "configurations" : [
+    {
+      "id" : "45D890D7-04FE-40F0-A737-21888FD8D3EC",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:QzzyFramework.xcodeproj",
+          "identifier" : "D43DF4AC2CB557FA001CC316",
+          "name" : "Core"
+        }
+      ]
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:QzzyFramework.xcodeproj",
+        "identifier" : "D43DF4B32CB557FB001CC316",
+        "name" : "CoreTests"
+      }
+    }
+  ],
+  "version" : 1
+}
