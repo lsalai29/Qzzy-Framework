@@ -7,41 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D43DF4992CB53F95001CC316 /* QzzyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D43DF4902CB53F94001CC316 /* QzzyFramework.framework */; };
-		D43DF49E2CB53F95001CC316 /* QzzyFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43DF49D2CB53F95001CC316 /* QzzyFrameworkTests.swift */; };
-		D43DF49F2CB53F95001CC316 /* QzzyFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = D43DF4932CB53F94001CC316 /* QzzyFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D43DF4B52CB557FB001CC316 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D43DF4AD2CB557FA001CC316 /* Core.framework */; };
+		D43DF4BA2CB557FB001CC316 /* CoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43DF4B92CB557FB001CC316 /* CoreTests.swift */; };
+		D43DF4BB2CB557FB001CC316 /* Core.h in Headers */ = {isa = PBXBuildFile; fileRef = D43DF4AF2CB557FA001CC316 /* Core.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D43DF49A2CB53F95001CC316 /* PBXContainerItemProxy */ = {
+		D43DF4B62CB557FB001CC316 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D43DF4872CB53F94001CC316 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D43DF48F2CB53F94001CC316;
-			remoteInfo = QzzyFramework;
+			remoteGlobalIDString = D43DF4AC2CB557FA001CC316;
+			remoteInfo = Core;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D43DF4902CB53F94001CC316 /* QzzyFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QzzyFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D43DF4932CB53F94001CC316 /* QzzyFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QzzyFramework.h; sourceTree = "<group>"; };
-		D43DF4982CB53F95001CC316 /* QzzyFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QzzyFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D43DF49D2CB53F95001CC316 /* QzzyFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QzzyFrameworkTests.swift; sourceTree = "<group>"; };
+		D43DF4AD2CB557FA001CC316 /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D43DF4AF2CB557FA001CC316 /* Core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
+		D43DF4B42CB557FB001CC316 /* CoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D43DF4B92CB557FB001CC316 /* CoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D43DF48D2CB53F94001CC316 /* Frameworks */ = {
+		D43DF4AA2CB557FA001CC316 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D43DF4952CB53F95001CC316 /* Frameworks */ = {
+		D43DF4B12CB557FB001CC316 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D43DF4992CB53F95001CC316 /* QzzyFramework.framework in Frameworks */,
+				D43DF4B52CB557FB001CC316 /* Core.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +51,8 @@
 		D43DF4862CB53F94001CC316 = {
 			isa = PBXGroup;
 			children = (
-				D43DF4922CB53F94001CC316 /* QzzyFramework */,
-				D43DF49C2CB53F95001CC316 /* QzzyFrameworkTests */,
+				D43DF4AE2CB557FA001CC316 /* Core */,
+				D43DF4B82CB557FB001CC316 /* CoreTests */,
 				D43DF4912CB53F94001CC316 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -60,76 +60,76 @@
 		D43DF4912CB53F94001CC316 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D43DF4902CB53F94001CC316 /* QzzyFramework.framework */,
-				D43DF4982CB53F95001CC316 /* QzzyFrameworkTests.xctest */,
+				D43DF4AD2CB557FA001CC316 /* Core.framework */,
+				D43DF4B42CB557FB001CC316 /* CoreTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D43DF4922CB53F94001CC316 /* QzzyFramework */ = {
+		D43DF4AE2CB557FA001CC316 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				D43DF4932CB53F94001CC316 /* QzzyFramework.h */,
+				D43DF4AF2CB557FA001CC316 /* Core.h */,
 			);
-			path = QzzyFramework;
+			path = Core;
 			sourceTree = "<group>";
 		};
-		D43DF49C2CB53F95001CC316 /* QzzyFrameworkTests */ = {
+		D43DF4B82CB557FB001CC316 /* CoreTests */ = {
 			isa = PBXGroup;
 			children = (
-				D43DF49D2CB53F95001CC316 /* QzzyFrameworkTests.swift */,
+				D43DF4B92CB557FB001CC316 /* CoreTests.swift */,
 			);
-			path = QzzyFrameworkTests;
+			path = CoreTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		D43DF48B2CB53F94001CC316 /* Headers */ = {
+		D43DF4A82CB557FA001CC316 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D43DF49F2CB53F95001CC316 /* QzzyFramework.h in Headers */,
+				D43DF4BB2CB557FB001CC316 /* Core.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		D43DF48F2CB53F94001CC316 /* QzzyFramework */ = {
+		D43DF4AC2CB557FA001CC316 /* Core */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D43DF4A22CB53F95001CC316 /* Build configuration list for PBXNativeTarget "QzzyFramework" */;
+			buildConfigurationList = D43DF4BC2CB557FB001CC316 /* Build configuration list for PBXNativeTarget "Core" */;
 			buildPhases = (
-				D43DF48B2CB53F94001CC316 /* Headers */,
-				D43DF48C2CB53F94001CC316 /* Sources */,
-				D43DF48D2CB53F94001CC316 /* Frameworks */,
-				D43DF48E2CB53F94001CC316 /* Resources */,
+				D43DF4A82CB557FA001CC316 /* Headers */,
+				D43DF4A92CB557FA001CC316 /* Sources */,
+				D43DF4AA2CB557FA001CC316 /* Frameworks */,
+				D43DF4AB2CB557FA001CC316 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = QzzyFramework;
-			productName = QzzyFramework;
-			productReference = D43DF4902CB53F94001CC316 /* QzzyFramework.framework */;
+			name = Core;
+			productName = Core;
+			productReference = D43DF4AD2CB557FA001CC316 /* Core.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D43DF4972CB53F95001CC316 /* QzzyFrameworkTests */ = {
+		D43DF4B32CB557FB001CC316 /* CoreTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D43DF4A52CB53F95001CC316 /* Build configuration list for PBXNativeTarget "QzzyFrameworkTests" */;
+			buildConfigurationList = D43DF4BF2CB557FB001CC316 /* Build configuration list for PBXNativeTarget "CoreTests" */;
 			buildPhases = (
-				D43DF4942CB53F95001CC316 /* Sources */,
-				D43DF4952CB53F95001CC316 /* Frameworks */,
-				D43DF4962CB53F95001CC316 /* Resources */,
+				D43DF4B02CB557FB001CC316 /* Sources */,
+				D43DF4B12CB557FB001CC316 /* Frameworks */,
+				D43DF4B22CB557FB001CC316 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D43DF49B2CB53F95001CC316 /* PBXTargetDependency */,
+				D43DF4B72CB557FB001CC316 /* PBXTargetDependency */,
 			);
-			name = QzzyFrameworkTests;
-			productName = QzzyFrameworkTests;
-			productReference = D43DF4982CB53F95001CC316 /* QzzyFrameworkTests.xctest */;
+			name = CoreTests;
+			productName = CoreTests;
+			productReference = D43DF4B42CB557FB001CC316 /* CoreTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -142,10 +142,10 @@
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					D43DF48F2CB53F94001CC316 = {
+					D43DF4AC2CB557FA001CC316 = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
-					D43DF4972CB53F95001CC316 = {
+					D43DF4B32CB557FB001CC316 = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
 				};
@@ -163,21 +163,21 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D43DF48F2CB53F94001CC316 /* QzzyFramework */,
-				D43DF4972CB53F95001CC316 /* QzzyFrameworkTests */,
+				D43DF4AC2CB557FA001CC316 /* Core */,
+				D43DF4B32CB557FB001CC316 /* CoreTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D43DF48E2CB53F94001CC316 /* Resources */ = {
+		D43DF4AB2CB557FA001CC316 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D43DF4962CB53F95001CC316 /* Resources */ = {
+		D43DF4B22CB557FB001CC316 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -187,28 +187,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D43DF48C2CB53F94001CC316 /* Sources */ = {
+		D43DF4A92CB557FA001CC316 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D43DF4942CB53F95001CC316 /* Sources */ = {
+		D43DF4B02CB557FB001CC316 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D43DF49E2CB53F95001CC316 /* QzzyFrameworkTests.swift in Sources */,
+				D43DF4BA2CB557FB001CC316 /* CoreTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D43DF49B2CB53F95001CC316 /* PBXTargetDependency */ = {
+		D43DF4B72CB557FB001CC316 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D43DF48F2CB53F94001CC316 /* QzzyFramework */;
-			targetProxy = D43DF49A2CB53F95001CC316 /* PBXContainerItemProxy */;
+			target = D43DF4AC2CB557FA001CC316 /* Core */;
+			targetProxy = D43DF4B62CB557FB001CC316 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -338,7 +338,7 @@
 			};
 			name = Release;
 		};
-		D43DF4A32CB53F95001CC316 /* Debug */ = {
+		D43DF4BD2CB557FB001CC316 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -360,7 +360,7 @@
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.QzzyFramework;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Core;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -369,7 +369,7 @@
 			};
 			name = Debug;
 		};
-		D43DF4A42CB53F95001CC316 /* Release */ = {
+		D43DF4BE2CB557FB001CC316 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -391,7 +391,7 @@
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.QzzyFramework;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Core;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -400,7 +400,7 @@
 			};
 			name = Release;
 		};
-		D43DF4A62CB53F95001CC316 /* Debug */ = {
+		D43DF4C02CB557FB001CC316 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -408,7 +408,7 @@
 				DEVELOPMENT_TEAM = TV54X7CMLD;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.QzzyFrameworkTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CoreTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -416,7 +416,7 @@
 			};
 			name = Debug;
 		};
-		D43DF4A72CB53F95001CC316 /* Release */ = {
+		D43DF4C12CB557FB001CC316 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -424,7 +424,7 @@
 				DEVELOPMENT_TEAM = TV54X7CMLD;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.QzzyFrameworkTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CoreTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -444,20 +444,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D43DF4A22CB53F95001CC316 /* Build configuration list for PBXNativeTarget "QzzyFramework" */ = {
+		D43DF4BC2CB557FB001CC316 /* Build configuration list for PBXNativeTarget "Core" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D43DF4A32CB53F95001CC316 /* Debug */,
-				D43DF4A42CB53F95001CC316 /* Release */,
+				D43DF4BD2CB557FB001CC316 /* Debug */,
+				D43DF4BE2CB557FB001CC316 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D43DF4A52CB53F95001CC316 /* Build configuration list for PBXNativeTarget "QzzyFrameworkTests" */ = {
+		D43DF4BF2CB557FB001CC316 /* Build configuration list for PBXNativeTarget "CoreTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D43DF4A62CB53F95001CC316 /* Debug */,
-				D43DF4A72CB53F95001CC316 /* Release */,
+				D43DF4C02CB557FB001CC316 /* Debug */,
+				D43DF4C12CB557FB001CC316 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -4,10 +4,25 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>QzzyFramework.xcscheme_^#shared#^_</key>
+		<key>Core.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>D43DF4AC2CB557FA001CC316</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D43DF4B32CB557FB001CC316</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
