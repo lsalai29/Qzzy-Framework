@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		D43DF4B52CB557FB001CC316 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D43DF4AD2CB557FA001CC316 /* Core.framework */; };
-		D43DF4BA2CB557FB001CC316 /* CoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43DF4B92CB557FB001CC316 /* CoreTests.swift */; };
-		D43DF4BB2CB557FB001CC316 /* Core.h in Headers */ = {isa = PBXBuildFile; fileRef = D43DF4AF2CB557FA001CC316 /* Core.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D43DF4C52CB561D1001CC316 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43DF4C42CB561D1001CC316 /* HTTPClient.swift */; };
+		D43DF4C92CB562C8001CC316 /* URLSessionHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43DF4C82CB562C8001CC316 /* URLSessionHTTPClient.swift */; };
+		D43DF4CB2CB56D75001CC316 /* URLSessionHTTPClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43DF4CA2CB56D75001CC316 /* URLSessionHTTPClientTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,10 +25,11 @@
 
 /* Begin PBXFileReference section */
 		D43DF4AD2CB557FA001CC316 /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D43DF4AF2CB557FA001CC316 /* Core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
 		D43DF4B42CB557FB001CC316 /* CoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D43DF4B92CB557FB001CC316 /* CoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreTests.swift; sourceTree = "<group>"; };
 		D43DF4C32CB55B21001CC316 /* Core.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = Core.xctestplan; sourceTree = "<group>"; };
+		D43DF4C42CB561D1001CC316 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		D43DF4C82CB562C8001CC316 /* URLSessionHTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClient.swift; sourceTree = "<group>"; };
+		D43DF4CA2CB56D75001CC316 /* URLSessionHTTPClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClientTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +72,7 @@
 		D43DF4AE2CB557FA001CC316 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				D43DF4AF2CB557FA001CC316 /* Core.h */,
+				D43DF4C62CB5628D001CC316 /* Networking */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -79,9 +81,26 @@
 			isa = PBXGroup;
 			children = (
 				D43DF4C32CB55B21001CC316 /* Core.xctestplan */,
-				D43DF4B92CB557FB001CC316 /* CoreTests.swift */,
+				D43DF4CD2CB56D83001CC316 /* Networking */,
 			);
 			path = CoreTests;
+			sourceTree = "<group>";
+		};
+		D43DF4C62CB5628D001CC316 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				D43DF4C42CB561D1001CC316 /* HTTPClient.swift */,
+				D43DF4C82CB562C8001CC316 /* URLSessionHTTPClient.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		D43DF4CD2CB56D83001CC316 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				D43DF4CA2CB56D75001CC316 /* URLSessionHTTPClientTests.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,7 +110,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D43DF4BB2CB557FB001CC316 /* Core.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,9 +164,11 @@
 				TargetAttributes = {
 					D43DF4AC2CB557FA001CC316 = {
 						CreatedOnToolsVersion = 15.0.1;
+						LastSwiftMigration = 1500;
 					};
 					D43DF4B32CB557FB001CC316 = {
 						CreatedOnToolsVersion = 15.0.1;
+						LastSwiftMigration = 1500;
 					};
 				};
 			};
@@ -193,6 +213,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D43DF4C52CB561D1001CC316 /* HTTPClient.swift in Sources */,
+				D43DF4C92CB562C8001CC316 /* URLSessionHTTPClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,7 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D43DF4BA2CB557FB001CC316 /* CoreTests.swift in Sources */,
+				D43DF4CB2CB56D75001CC316 /* URLSessionHTTPClientTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +365,7 @@
 		D43DF4BD2CB557FB001CC316 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -369,6 +392,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -376,6 +400,7 @@
 		D43DF4BE2CB557FB001CC316 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -409,6 +434,8 @@
 		D43DF4C02CB557FB001CC316 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TV54X7CMLD;
@@ -420,6 +447,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -427,6 +455,8 @@
 		D43DF4C12CB557FB001CC316 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TV54X7CMLD;
