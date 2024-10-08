@@ -15,6 +15,8 @@ public final class URLSessionHTTPClient: HTTPClient {
     }
     
     public func perform(request: URLRequest, completion: @escaping (HTTPClient.Result) -> Void) {
-        completion(.failure(NSError(domain: "any error", code: 1)))
+        session.dataTask(with: request) { data, response, error in
+            completion(.failure(NSError(domain: "any error", code: 1)))
+        }.resume()
     }
 }
